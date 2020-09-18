@@ -25,6 +25,23 @@
  *---------------------------------------------------------------------------*/
 #include "utilities.h"
 
+
+/**************************************************************************//**
+* @author Dennis Kovarik
+*
+* @par Description:
+* This is the main function which is the start of the program. It will run the
+* sieve of Eratosthenes algorithm to find all prime numbers less than n. This 
+* program can be run with 0, or 1 additional command line arguments. If no 
+* arguments are passed in, then the program will default to finding all prime 
+* numbers less than 1000. The 1st argument passed in specifies n, which is the 
+* upperbound on range of numbers.
+*
+* @param[in] n - Int of the upper bound of all integers to find the consecutive 
+*                prime numbers for.
+*
+* @returns 0 if the program executed correctly.
+******************************************************************************/
 int main(int argc, char **argv)
 {
     int n = 1000;
