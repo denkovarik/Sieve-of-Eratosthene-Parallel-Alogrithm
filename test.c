@@ -12,7 +12,7 @@
 *
 * @par Description:
 * This is the main function which is the start of the test program. This 
-* program test the functin findPrimes() on its ability to find all primes 
+* program test the function findPrimes() on its ability to find all primes 
 * less than n. This will then be compared against the file primes-to-100k.txt
 * which contains prime numbers less than 1000000. 
 *
