@@ -40,7 +40,7 @@ int countDigits(int num)
 * @param[in] n - Int of the upper bound on the range of all integers to find
 *                prime numbers for.
 * @param[in,out] primeList - Array of boolean values of size n for marking each 
-*                        each number as prime or not.
+*                            number as prime or not.
 *
 * @returns none
 ******************************************************************************/
