@@ -52,7 +52,7 @@ void findPrimes(int n, bool *primeList)
     {
 
 #       pragma omp parallel for num_threads(8) default(none) \
-            shared(primeList, n, p) schedule(dynamic)
+            shared(primeList, n, p) schedule(static)
         for(int i = 2; i <= n / p; i++)
         {
             primeList[i*p] = false;
