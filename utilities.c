@@ -1,6 +1,22 @@
+/**************************************************************************//**
+* @file
+*
+* @brief Source file for utility functions
+*
+******************************************************************************/
 #include "utilities.h"
 
 
+/**************************************************************************//**
+* @author Dennis Kovarik
+*
+* @par Description:
+* This function determines the number of digits in an integer. 
+*
+* @param[in] num - An int to determine the number of digits in.
+*
+* @returns the number of digits in the number as an int.
+******************************************************************************/
 int countDigits(int num)
 {
     int count = 0;
@@ -14,6 +30,20 @@ int countDigits(int num)
 }
 
 
+/**************************************************************************//**
+* @author Dennis Kovarik
+*
+* @par Description:
+* This function runs the sieve of Eratosthenes method to find all primes less
+* than n. 
+*
+* @param[in] n - Int of the upper bound on the range of all integers to find
+*                prime numbers for.
+* @param[in,out] primeList - Array of boolean values of size n for marking each 
+*                        each number as prime or not.
+*
+* @returns none
+******************************************************************************/
 void findPrimes(int n, bool *primeList)
 {
     int p = 2;
@@ -36,6 +66,19 @@ void findPrimes(int n, bool *primeList)
 }
 
 
+/**************************************************************************//**
+* @author Dennis Kovarik
+*
+* @par Description:
+* This function prints the prime numbers less than n to the screen.
+*
+* @param[in] n - Int of the upper bound on the range of all integers to find
+*                prime numbers for.
+* @param[in] primeList - Array of boolean values of size n for marking each 
+*                        each number as prime or not.
+*
+* @returns none
+******************************************************************************/
 void printList(bool *primeList, int n)
 {
     int numDigitsN = 0;
