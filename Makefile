@@ -1,4 +1,10 @@
-
+# Makefile for program
 
 main:
-	g++ -g -Wall sequential_sieve_of_eratosthenes.cpp -o sequential_sieve_of_eratosthenes
+	gcc -g -Wall -fopenmp -o prime main.c utilities.c
+
+test:
+	gcc test.c -o runTest utilities.c
+
+clean:
+	rm prime runTest
