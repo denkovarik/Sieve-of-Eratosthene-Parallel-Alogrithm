@@ -1,5 +1,23 @@
+/**************************************************************************//**
+* @file test.c
+*
+* @brief Source file for utility functions
+*
+******************************************************************************/
 #include "utilities.h"
 
+
+/**************************************************************************//**
+* @author Dennis Kovarik
+*
+* @par Description:
+* This is the main function which is the start of the test program. This 
+* program test the functin findAllPrimes() on its ability to find all primes 
+* less than n. This will then be compared against the file primes-to-100k.txt
+* which contains prime numbers less than 1000000. 
+*
+* @returns 0 if the program executed correctly.
+******************************************************************************/
 int main()
 {
     int num, nextPrime, n = 1000000;
