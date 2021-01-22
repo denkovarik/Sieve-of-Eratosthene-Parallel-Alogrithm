@@ -20,7 +20,7 @@ ssh:
 ### Compile the Test
 * make test
 
-### Run the Test
+### Run the Tests
 * ./runTest
 
 ## Usage
