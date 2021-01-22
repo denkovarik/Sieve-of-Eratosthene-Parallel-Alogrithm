@@ -29,7 +29,9 @@ ssh:
 * ./runTest
 
 ## Usage
-* './prime'
+"""
+./prime
+"""
 * './prime <n>'
 
 ## Creadits
