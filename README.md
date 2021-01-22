@@ -11,22 +11,32 @@ This is a parallel program that uses the sieve of eratosthene method to find all
 * OpenMP
 
 ### Clone the Repo
-https:
-* https://gitlab.com/dennis.kovarik/sieve-of-eratosthene-parallel-alogrithm.git
+* https:
+```
+https://gitlab.com/dennis.kovarik/sieve-of-eratosthene-parallel-alogrithm.git
+```
 
-ssh:
-* git@gitlab.com:dennis.kovarik/sieve-of-eratosthene-parallel-alogrithm.git
+* ssh:
+```
+git@gitlab.com:dennis.kovarik/sieve-of-eratosthene-parallel-alogrithm.git
+```
 
 ### Compile the program
-* make
+```
+make
+```
 
 ## Testing
 
 ### Compile the Test
-* make test
+```
+make test
+```
 
 ### Run the Tests
-* ./runTest
+```
+./runTest
+```
 
 ## Usage
 ```
