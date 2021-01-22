@@ -5,6 +5,11 @@ This is a parallel program that uses the sieve of eratosthene method to find all
 
 ## Setup
 
+## dependencies
+* g++
+* make
+* OpenMP
+
 ### Clone the Repo
 https:
 * https://gitlab.com/dennis.kovarik/sieve-of-eratosthene-parallel-alogrithm.git
@@ -24,8 +29,8 @@ ssh:
 * ./runTest
 
 ## Usage
-* ./prime
-* ./prime `<n>`
+* './prime'
+* './prime <n>'
 
 ## Creadits
 Dennis Kovarik
