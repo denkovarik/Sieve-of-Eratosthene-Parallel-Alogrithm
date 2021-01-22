@@ -29,10 +29,12 @@ ssh:
 * ./runTest
 
 ## Usage
-"""
+```
 ./prime
-"""
-* './prime <n>'
+```
+```
+./prime <n>
+```
 
 ## Creadits
 Dennis Kovarik
