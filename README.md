@@ -13,12 +13,12 @@ This is a parallel program that uses the sieve of eratosthene method to find all
 ### Clone the Repo
 * https:
 ```
-https://gitlab.com/dennis.kovarik/sieve-of-eratosthene-parallel-alogrithm.git
+git clone https://gitlab.com/dennis.kovarik/sieve-of-eratosthene-parallel-alogrithm.git
 ```
 
 * ssh:
 ```
-git@gitlab.com:dennis.kovarik/sieve-of-eratosthene-parallel-alogrithm.git
+git clone git@gitlab.com:dennis.kovarik/sieve-of-eratosthene-parallel-alogrithm.git
 ```
 
 ### Compile the program
